@@ -1,0 +1,34 @@
+{
+  "code": "example-heated-quartz",
+  "enabled": true,
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "game:*quartz",
+      "quantity": 4,
+      "attributes": {},
+      "allowMixedVariants": true
+    }
+  ],
+  "liquid": {
+    "code": "game:waterportion",
+    "litres": 10.0,
+    "consume": true
+  },
+  "conditions": {
+    "minimumTemperature": 200.0,
+    "maximumTemperature": null,
+    "durationSeconds": 30.0,
+    "lid": "clamped"
+  },
+  "outputs": [
+    {
+      "type": "item",
+      "code": "game:clearquartz",
+      "quantity": 1
+    }
+  ],
+  "behavior": {
+    "progressMode": "pause"
+  }
+}
