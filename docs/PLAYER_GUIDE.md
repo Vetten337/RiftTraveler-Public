@@ -13,7 +13,7 @@ signatures, follow the directional HUD toward their convergence, and stabilize
 the resulting travel opportunity. Successful natural travel can move the
 player thousands of blocks.
 
-Anchor mode tracks the player's calibrated Temporal Anchor and controls
+Anchor mode tracks the player's calibrated Travel Anchor and controls
 Anchor-based travel.
 
 Cargo mode tracks the player's Cargo Anchor, binds a Cargo Transmitter, and
@@ -27,9 +27,20 @@ aiming into open air to clean it and recover the accumulated material.
 
 ## Temporal Anchors
 
-A Temporal Anchor is a permanent player-owned reference point. Place, claim,
-and calibrate it with the Triangulator. Temporal Crystals provide the energy
-needed for controlled travel.
+A newly placed Anchor begins as a private, unassigned foundation and calibrates
+for five seconds. Once ready, install one Temporal Crystal to specialize and
+charge it as your Travel Anchor, or install one Cargo Storage Box to create
+your Cargo Anchor. Each player may own one of each role, and either may be
+constructed first.
+
+Hold Sneak while placing another Anchor to remotely relocate an existing
+unassigned foundation or Travel Anchor. Relocation does not consume another
+Anchor item. A Travel Anchor also retains its installed Crystal and charge
+while recalibrating at the new location.
+
+Manually breaking a charged Travel Anchor returns its Temporal Crystal to your
+inventory, or drops it at the Anchor when your inventory is full. Explosions
+and unusual removal may still destroy the charge.
 
 ## Temporal Cargo
 
@@ -37,6 +48,11 @@ A Cargo Anchor is a private destination created from an eligible Anchor. A
 Cargo Transmitter holds up to six outgoing stacks. Bind it with the
 Triangulator in Cargo mode, stage the cargo, then hold the scanner use control
 to transmit.
+
+Cargo Anchors cannot be relocated remotely because that could be used to move
+their stored inventory without a cargo transmission. Resolve pending
+deliveries, empty the Cargo Anchor, and break it manually before establishing
+another one elsewhere.
 
 Shipments are committed to persistent server escrow before the source is
 cleared. A full or unloaded destination delays delivery instead of discarding

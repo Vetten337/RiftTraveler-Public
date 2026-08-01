@@ -13,8 +13,8 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.3.0-dev.4`
-- Vintage Story: `1.22.3 Stable`
+- Rift Traveler: `0.3.0`
+- Vintage Story: `1.22.6 Stable`
 - Required side: client and server
 
 Download Rift Traveler from the
@@ -35,7 +35,7 @@ Download Rift Traveler from the
 
 - Temporal Triangulator and native scanner HUD
 - Natural-rift scanning, triangulation, and long-distance travel
-- Personal Temporal Anchors
+- Player-chosen Travel Anchor and Cargo Anchor specialization
 - Private Cargo Anchors and Cargo Transmitters
 - Cross-dimensional cargo delivery
 - Temporal Retort chemistry

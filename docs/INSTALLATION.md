@@ -2,7 +2,8 @@
 
 ## Compatibility
 
-The current release is built and tested for Vintage Story `1.22.3 Stable`.
+The current release is built and tested for Vintage Story `1.22.6 Stable`.
+Earlier 1.22.x builds are not officially supported by the 0.3.0 package.
 Rift Traveler is required on both the server and every connecting client.
 
 ## Single-player and client installation

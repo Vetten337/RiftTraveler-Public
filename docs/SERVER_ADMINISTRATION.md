@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Vintage Story 1.22.3 Stable
+- Vintage Story 1.22.6 Stable
 - The same Rift Traveler version on server and clients
 - One installed Rift Traveler ZIP or folder, never multiple versions
 
