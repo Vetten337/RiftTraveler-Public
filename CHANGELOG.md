@@ -1,6 +1,6 @@
 # Rift Traveler Changelog
 
-## 0.3.1-alpha.2
+## 0.3.1
 
 - Redesigned the Temporal Retort as a horizontal workstation with a 50 L
   barrel-like reaction vessel and adjacent open-front firebox.
