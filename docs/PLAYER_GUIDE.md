@@ -64,9 +64,23 @@ buckets, are intentionally rejected.
 The Temporal Retort extends familiar Barrel chemistry with heat, clamping,
 timed processing, liquids, and atomic multi-output reactions.
 
+Place the Retort with its working face toward you. It occupies one real block
+but its model forms a horizontal two-block workstation: the 50 L reaction
+vessel and an adjacent open-front firebox. The firebox-side block must be empty
+or already contain a Firepit, preventing the model from overlapping another
+block.
+
+Build, fuel, and light a normal vanilla Firepit by hand inside the open firebox.
+The Retort may be placed before or after the Firepit. It remains idle until the
+correctly positioned Firepit is burning. Active Temporal processing produces
+smoke at the exhaust pipe.
+
 - Open: workstation and immediate Barrel-compatible interactions
 - Closed: sealed Barrel-compatible processing
 - Clamped: heated Temporal protocol processing
+
+With the lid open, the vessel shows its stored liquid. The surface height and
+appearance follow the quantity and liquid type in the 50 L tank.
 
 A protocol never consumes its inputs unless every output can be inserted.
 Progress may pause when temperature or lid requirements are lost and resume

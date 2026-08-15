@@ -1,5 +1,23 @@
 # Rift Traveler Changelog
 
+## 0.3.1-alpha.2
+
+- Redesigned the Temporal Retort as a horizontal workstation with a 50 L
+  barrel-like reaction vessel and adjacent open-front firebox.
+- The firebox uses a normal player-built, fueled, and lit vanilla Firepit; the
+  Retort can be placed before or after it.
+- Added player-facing placement in all four horizontal directions. Heat
+  detection, liquid rendering, and exhaust smoke rotate with the model.
+- Blocked placement when the firebox side would overlap an unrelated block.
+- Restored the hollow open vessel and liquid surface whose height and texture
+  reflect the stored amount and liquid type.
+- Stabilized Retort textures across open, closed, and clamped lid states.
+- Added cooking smoke from the exhaust during active Temporal processing.
+- Added an isolated development profile, repeatable smoke/persistence testing
+  guidance, and development-only persistence probe groundwork.
+- Published a single forward-slash-path ZIP for Windows and Linux clients and
+  servers running Vintage Story 1.22.6 Stable.
+
 ## 0.3.0
 
 - Rebuilt and tested against Vintage Story 1.22.6 Stable.

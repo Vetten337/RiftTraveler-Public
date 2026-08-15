@@ -13,7 +13,7 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.3.0`
+- Rift Traveler: `0.3.1-alpha.2`
 - Vintage Story: `1.22.6 Stable`
 - Required side: client and server
 
