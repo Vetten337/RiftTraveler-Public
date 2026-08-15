@@ -3,8 +3,12 @@
 ## Compatibility
 
 The current release is built and tested for Vintage Story `1.22.6 Stable`.
-Earlier 1.22.x builds are not officially supported by the 0.3.1 package.
+Earlier 1.22.x builds are not officially supported by the 0.3.2 package.
 Rift Traveler is required on both the server and every connecting client.
+
+Rustbound Magic integration is optional. When Rustbound Magic is installed,
+Rift Traveler adds the Rust Condensation Retort protocol. Rift Traveler remains
+fully functional when Rustbound Magic is absent.
 
 ## Single-player and client installation
 

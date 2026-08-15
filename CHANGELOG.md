@@ -1,5 +1,23 @@
 # Rift Traveler Changelog
 
+## 0.3.2
+
+- Added optional compatibility with Rustbound Magic 3.2.5.
+- Added Rust Condensation: eight Rusty Dust, five litres of consumed Temporal
+  Solvent, at least 400 C, 30 seconds, and a clamped Retort produce two Temporal
+  Residue.
+- Added optional `requiresMods` declarations to Retort recipes. Recipes with an
+  unavailable dependency are skipped safely.
+- Snapshot Recipe Maker now infers required mods from staged foreign inputs,
+  outputs, and liquids and preserves them through verification.
+- Every enabled Retort recipe now gains automatic Temporal Discovery coverage
+  when it has no authored discovery definition.
+- Possessing a recipe ingredient unlocks the generated research lead; successful
+  processing confirms and reveals the complete protocol.
+- Authored discovery definitions retain priority for custom lore and triggers.
+- Published one platform-neutral ZIP for Windows and Linux clients and servers
+  running Vintage Story 1.22.6 Stable.
+
 ## 0.3.1
 
 - Redesigned the Temporal Retort as a horizontal workstation with a 50 L

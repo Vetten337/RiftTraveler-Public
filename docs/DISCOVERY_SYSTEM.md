@@ -14,6 +14,11 @@ coating.
 Leads provide direction without listing every exact requirement. They are
 intended to narrow the experiment space while preserving discovery.
 
+Every enabled registered Temporal Retort recipe participates automatically. If
+a recipe has no authored Discovery Catalog entry, Rift Traveler creates a
+generic lead at startup. Possessing any of that recipe's solid ingredients
+unlocks the lead.
+
 ## Confirmed protocols
 
 When the player successfully completes a catalogued process, the server marks
@@ -36,10 +41,12 @@ command list.
 
 ## Recipe versus discovery content
 
-A recipe defines mechanical processing. A Discovery Catalog entry connects
-that recipe to lead triggers, clues, completion, localization, and Handbook
+A recipe defines mechanical processing. The Discovery Catalog connects that
+recipe to lead triggers, clues, completion, localization, and Handbook
 presentation.
 
-Snapshot-generated recipes are functional after restart, but do not
-automatically gain research leads or Handbook discovery text.
+Snapshot-generated and manually added Retort recipes automatically receive a
+generic research lead and Handbook entry after restart. Authors may still add
+an explicit Discovery Catalog definition to replace the generated lead with
+custom lore or a specialized trigger. Authored entries always take priority.
 

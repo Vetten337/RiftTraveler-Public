@@ -13,7 +13,7 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.3.1`
+- Rift Traveler: `0.3.2`
 - Vintage Story: `1.22.6 Stable`
 - Required side: client and server
 
@@ -40,7 +40,9 @@ Download Rift Traveler from the
 - Cross-dimensional cargo delivery
 - Temporal Retort chemistry
 - Data-driven Retort protocols
+- Optional Rustbound Magic Rust Condensation protocol
 - Research leads and confirmed discoveries
+- Automatic discovery coverage for enabled Retort recipes
 - Survival Handbook integration
 - Renewable Temporal Residue from natural-rift travel
 

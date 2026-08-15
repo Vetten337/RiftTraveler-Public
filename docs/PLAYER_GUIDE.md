@@ -86,11 +86,20 @@ A protocol never consumes its inputs unless every output can be inserted.
 Progress may pause when temperature or lid requirements are lost and resume
 when the conditions return.
 
+When Rustbound Magic is installed, the optional Rust Condensation protocol
+processes eight Rusty Dust in five litres of Temporal Solvent. Clamp the Retort,
+maintain at least 400 C for 30 seconds, and the reaction produces two Temporal
+Residue. This protocol is absent when Rustbound Magic is not installed.
+
 ## Discoveries
 
 Important observations can create research leads without revealing a complete
 recipe. Successfully completing an unknown process confirms it and records the
 full protocol in the Temporal Discoveries section of the Survival Handbook.
+
+Every enabled Retort recipe receives discovery coverage automatically.
+Possessing one of a protocol's solid ingredients can reveal a generic research
+lead when no specially authored lead exists.
 
 Use:
 

@@ -16,6 +16,7 @@ executor.
 {
   "code": "example-reaction",
   "enabled": true,
+  "requiresMods": ["examplemod"],
   "ingredients": [
     {
       "type": "item",
@@ -49,6 +50,8 @@ executor.
 
 - `code`: required path-only recipe code
 - `enabled`: optional, defaults to `true`
+- `requiresMods`: optional list of mod identifiers that must all be enabled;
+  recipes with unmet requirements are skipped before registration
 - `ingredients`: zero to three item or block requirements
 - `liquid`: one optional liquid requirement; `null` requires an empty tank
 - `conditions`: temperature, time, and lid requirements
@@ -118,4 +121,8 @@ protocol.
 Malformed JSON is skipped independently. Structurally invalid definitions are
 excluded by the production validator. Registry order is deterministic, and the
 first definition of a recipe identifier wins; later duplicates are rejected.
+
+Every enabled registered recipe automatically receives a generic Temporal
+Discovery entry when no authored discovery definition references it. A custom
+catalog entry may replace the generated lead with tailored lore and triggers.
 

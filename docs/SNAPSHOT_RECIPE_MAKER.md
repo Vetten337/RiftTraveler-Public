@@ -29,7 +29,9 @@ A generated protocol can include:
 - a minimum operating temperature;
 - a processing duration;
 - a required clamped lid;
-- progress that pauses when operating conditions are lost.
+- progress that pauses when operating conditions are lost;
+- automatically inferred mod requirements for staged foreign inputs, outputs,
+  and liquids.
 
 Snapshot V1 always creates recipes with these fixed properties:
 
@@ -327,11 +329,14 @@ Built-in protocols such as PRT-001 have dedicated Discovery Catalog entries
 that connect their gameplay triggers, clues, completion identity, and Handbook
 presentation.
 
-**A Snapshot-generated recipe does not automatically create a research lead or
-Handbook discovery entry.** It becomes a functional Retort recipe after restart,
-but a polished player-facing discovery requires a separate Discovery Catalog
-definition supplied with the mod or recipe pack. This separation prevents a
-developer utility from inventing lore, clues, or progression rules.
+**A Snapshot-generated recipe automatically receives a generic research lead
+and Handbook discovery entry after restart.** Possessing any of its solid
+ingredients unlocks the lead. Successfully completing the process confirms the
+protocol and reveals its full requirements.
+
+Recipe packs may provide an authored Discovery Catalog definition for custom
+lore or a specialized trigger. Authored definitions take priority over the
+automatic entry.
 
 This design supports two authoring layers:
 
@@ -340,7 +345,7 @@ Snapshot Recipe Maker
     Creates and verifies the mechanical protocol
 
 Discovery Catalog
-    Connects that protocol to exploration, clues, and player knowledge
+    Adds automatic discovery coverage, with optional authored customization
 ```
 
 ## Sharing generated recipes
@@ -353,10 +358,11 @@ another server. That server must have:
 - a compatible Rift Traveler recipe schema;
 - no packed or generated recipe using the same identifier.
 
-Restart the server after copying the file. Recipe authors distributing a formal
-content pack should package recipes as mod assets and provide appropriate
-localization and Discovery Catalog content rather than asking players to manage
-server-generated files manually.
+Restart the server after copying the file. Snapshot recipes record the domains
+of staged foreign collectibles in `requiresMods`, so unavailable compatibility
+recipes are skipped safely. Recipe authors distributing a formal content pack
+should package recipes as mod assets and may provide custom localization and
+Discovery Catalog content for a more tailored presentation.
 
 ## Troubleshooting
 
@@ -396,8 +402,8 @@ support live reload.
 
 ### Recipe loads but has no discovery page
 
-Add a separate Discovery Catalog entry. Snapshot generation creates recipe
-behavior, not player-facing research content.
+Restart the server or world and acquire one of the recipe's solid ingredients.
+Every enabled registered Retort recipe receives an automatic discovery entry.
 
 ## Quick command reference
 
