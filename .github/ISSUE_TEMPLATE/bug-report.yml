@@ -1,0 +1,107 @@
+name: Bug report
+description: Report a reproducible problem with Rift Traveler.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping test Rift Traveler. Please back up important worlds and remove private information from logs before uploading them.
+
+  - type: input
+    id: rifttraveler-version
+    attributes:
+      label: Rift Traveler version
+      description: The version shown in the Mod Manager or ZIP filename.
+      placeholder: "0.3.4"
+    validations:
+      required: true
+
+  - type: input
+    id: game-version
+    attributes:
+      label: Vintage Story version
+      placeholder: "1.22.6 Stable"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Single-player
+        - Multiplayer client
+        - Dedicated server
+        - Hosted server
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Explain the problem and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Give the shortest reliable sequence that causes the problem.
+      placeholder: |
+        1. Place...
+        2. Use...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Installed mods
+      description: List every enabled mod and version, or attach the relevant startup log.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Drag client-main.log, server-main.log, and relevant debug logs here. Remove private information first.
+      placeholder: Attach files or paste a short relevant excerpt.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or video
+      description: Add visual evidence when it helps explain the problem.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for this problem.
+          required: true
+        - label: I am using one Rift Traveler package and removed older copies.
+          required: true
+        - label: I backed up any important world used for testing.
+          required: true
+

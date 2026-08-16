@@ -57,6 +57,10 @@ is maintained separately while the project is in alpha.
 
 ## Feedback
 
+Use the public repository's structured
+[issue forms](https://github.com/Vetten337/RiftTraveler-Public/issues/new/choose)
+to report a bug, mod compatibility problem, or feature request.
+
 When reporting a problem, include:
 
 - Rift Traveler version;

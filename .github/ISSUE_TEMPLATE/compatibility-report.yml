@@ -1,0 +1,88 @@
+name: Mod compatibility report
+description: Report an interaction between Rift Traveler and another mod.
+title: "[Compatibility]: "
+labels:
+  - compatibility
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when Rift Traveler works alone but behaves differently alongside another mod.
+
+  - type: input
+    id: rifttraveler-version
+    attributes:
+      label: Rift Traveler version
+      placeholder: "0.3.4"
+    validations:
+      required: true
+
+  - type: input
+    id: game-version
+    attributes:
+      label: Vintage Story version
+      placeholder: "1.22.6 Stable"
+    validations:
+      required: true
+
+  - type: input
+    id: conflicting-mod
+    attributes:
+      label: Other mod and version
+      placeholder: "Mod Name 1.2.3"
+    validations:
+      required: true
+
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Compatibility problem
+      description: Explain what happens with both mods enabled and what should happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Isolation testing
+      description: Describe results with Rift Traveler alone, the other mod alone, and both together.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Enable...
+        2. Place...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: full-mod-list
+    attributes:
+      label: Complete mod list
+      description: Include exact versions for all enabled mods.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and screenshots
+      description: Attach relevant client/server logs and visual evidence. Remove private information first.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for this mod combination.
+          required: true
+        - label: I reproduced the problem with only the necessary mods enabled.
+          required: true
+
