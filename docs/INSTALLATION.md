@@ -3,7 +3,7 @@
 ## Compatibility
 
 The current release is built and tested for Vintage Story `1.22.6 Stable`.
-Earlier 1.22.x builds are not officially supported by the 0.3.2 package.
+Earlier 1.22.x builds are not officially supported by the 0.3.3 package.
 Rift Traveler is required on both the server and every connecting client.
 
 Rustbound Magic integration is optional. When Rustbound Magic is installed,

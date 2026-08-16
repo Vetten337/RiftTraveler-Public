@@ -19,6 +19,12 @@ Anchor-based travel.
 Cargo mode tracks the player's Cargo Anchor, binds a Cargo Transmitter, and
 controls shipment transmission.
 
+While holding the Triangulator, press P to enter HUD positioning mode and drag
+the scanner panel. Press P again to keep the new position. While positioning,
+Shift+P resets the scanner to its default place below the minimap and coordinate
+display, then exits positioning. The chosen position is remembered after the
+client is closed. Hover the scanner with a visible cursor to review these controls.
+
 ## Temporal Residue
 
 Successful natural-rift travel leaves Temporal Residue on the Triangulator.
@@ -73,7 +79,8 @@ block.
 Build, fuel, and light a normal vanilla Firepit by hand inside the open firebox.
 The Retort may be placed before or after the Firepit. It remains idle until the
 correctly positioned Firepit is burning. Active Temporal processing produces
-smoke at the exhaust pipe.
+smoke at the exhaust pipe. The fitted Retort shelters this attached Firepit from
+rain; unrelated uncovered Firepits retain their normal weather behavior.
 
 - Open: workstation and immediate Barrel-compatible interactions
 - Closed: sealed Barrel-compatible processing
@@ -96,6 +103,15 @@ Residue. This protocol is absent when Rustbound Magic is not installed.
 Important observations can create research leads without revealing a complete
 recipe. Successfully completing an unknown process confirms it and records the
 full protocol in the Temporal Discoveries section of the Survival Handbook.
+
+New leads and confirmed protocols display a short on-screen notification with a
+subtle sound in addition to the chat record. Existing discoveries do not replay
+notifications when reconnecting.
+
+The Discoveries overview links to a separate page for each visible lead or
+confirmed protocol. Confirmed pages show ingredients, liquids, outputs, operating
+temperature, duration, and lid requirements. Ingredient and output names link to
+their normal Handbook entries; mixed families open a Handbook search.
 
 Every enabled Retort recipe receives discovery coverage automatically.
 Possessing one of a protocol's solid ingredients can reveal a generic research

@@ -13,7 +13,7 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.3.2`
+- Rift Traveler: `0.3.3`
 - Vintage Story: `1.22.6 Stable`
 - Required side: client and server
 
@@ -34,6 +34,7 @@ Download Rift Traveler from the
 ## Main systems
 
 - Temporal Triangulator and native scanner HUD
+- Persistent player-positioned Triangulator HUD with map-aligned reset
 - Natural-rift scanning, triangulation, and long-distance travel
 - Player-chosen Travel Anchor and Cargo Anchor specialization
 - Private Cargo Anchors and Cargo Transmitters
@@ -44,6 +45,8 @@ Download Rift Traveler from the
 - Research leads and confirmed discoveries
 - Automatic discovery coverage for enabled Retort recipes
 - Survival Handbook integration
+- Per-discovery pages with a linked Retort recipe viewer
+- On-screen discovery notifications with sound
 - Renewable Temporal Residue from natural-rift travel
 
 ## Purpose of this repository

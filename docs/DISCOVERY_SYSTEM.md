@@ -25,6 +25,16 @@ When the player successfully completes a catalogued process, the server marks
 that protocol as confirmed. The complete ingredients, outputs, and operating
 conditions then appear in the Temporal Discoveries Handbook section.
 
+The overview gives each visible discovery its own page. Confirmed protocol pages
+serve as a Retort recipe viewer with quantities, liquids, outputs, temperatures,
+duration, lid state, and processing behavior. Exact collectibles link directly
+to their standard Handbook pages; wildcard requirements link to a search for the
+valid family.
+
+New leads use a gold on-screen notification and confirmed protocols use a cyan
+notification. Both retain the existing chat record and play a subtle sound once.
+Login synchronization is silent, so previously learned discoveries do not replay.
+
 Discoveries are persistent and maintained per player.
 
 ## Commands

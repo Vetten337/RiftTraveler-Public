@@ -1,5 +1,28 @@
 # Rift Traveler Changelog
 
+## 0.3.3
+
+- Added a persistent, movable Temporal Triangulator HUD. Press P while holding
+  the scanner to position it; press Shift+P while positioning to reset and exit.
+- Kept the minimap and coordinate readout in their native map-aligned positions
+  when moving or resetting the scanner HUD.
+- Added hover guidance for scanner positioning controls.
+- Added queued on-screen notifications and a subtle sound for new research leads
+  and confirmed protocols without replaying them during login synchronization.
+- Split Temporal Discoveries into an overview and separate uncluttered pages.
+- Added a complete confirmed-protocol recipe viewer with inputs, liquids, outputs,
+  temperatures, duration, lid state, and processing behavior.
+- Added direct Handbook links for exact recipe collectibles and search links for
+  wildcard or mixed-variant ingredients.
+- Added the distinct Temporal Gear Extraction lead after obtaining Temporal
+  Solvent and prevented duplicate generic lead text.
+- Protected the Retort's correctly oriented vanilla Firepit from rain while
+  preserving vanilla weather behavior for ordinary uncovered Firepits.
+- Grouped Retort directional variants into one Handbook identity, removing
+  repeated Retort icons from compatible-container listings.
+- Published one platform-neutral ZIP for Windows and Linux clients and servers
+  running Vintage Story 1.22.6 Stable.
+
 ## 0.3.2
 
 - Added optional compatibility with Rustbound Magic 3.2.5.
