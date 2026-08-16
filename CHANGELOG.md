@@ -1,5 +1,12 @@
 # Rift Traveler Changelog
 
+## 0.3.4
+
+- Added explicit Vintage Story game and Survival 1.22.6 dependencies to release
+  metadata, allowing the Mod Database to identify compatible game versions and
+  ensuring required Survival systems load before Rift Traveler.
+- Includes all gameplay, discovery, Retort, and HUD improvements from 0.3.3.
+
 ## 0.3.3
 
 - Added a persistent, movable Temporal Triangulator HUD. Press P while holding
