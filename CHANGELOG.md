@@ -1,5 +1,30 @@
 # Rift Traveler Changelog
 
+## 0.4.0
+
+- Targeted Vintage Story 1.22.7 Stable while retaining compatibility with
+  1.22.6.
+- Reworked natural-Rift scanning into an active six-second analysis. Hold use
+  while aiming at a Rift from within ten blocks and keep the energy beam
+  connected. A completed analysis collapses the Rift and records one lock.
+- Added two measures of Temporal Residue for collapsing an analyzed Rift and
+  four for successful natural-Rift travel, with a twelve-measure scanner limit.
+- Added a dedicated Residue Extraction scanner mode with a matching icon,
+  focused HUD, temporal smoke, and pressure-release feedback.
+- Added group Travel Rifts for up to eight travelers, including nearby-player
+  join guidance, participant toasts, roster feedback, and synchronized transit.
+- Added staged departure and arrival effects for natural, controlled, and group
+  teleportation.
+- Added mode-colored indicator lights, moving crystal colors, a brighter tip
+  crystal, compass-point glow, and an extendable proximity-driven antenna.
+- Added scanner power, calibration, detection, and lock audio feedback.
+- Added Anchor-to-Crystal energy arcs and corrected Anchor placement direction.
+- Improved analyzed-Rift collapse reliability, including persisted and
+  command-spawned Rifts after a server restart.
+- Improved Cargo delivery notifications and queued-shipment feedback.
+- Documented tested Manifold support for cross-dimensional Temporal Cargo.
+- Updated in-game and public player guidance for all new interactions.
+
 ## 0.3.4
 
 - Added explicit Vintage Story game and Survival 1.22.6 dependencies to release

@@ -5,13 +5,26 @@ experimentation, and infrastructure rather than immediate teleportation.
 
 ## Temporal Triangulator
 
-The Temporal Triangulator detects and tracks temporal signals. Its modes are
-selected with Vintage Story's normal tool-mode control.
+The Temporal Triangulator detects, analyzes, and tracks temporal signals. Press
+the normal tool-mode control (F by default) to cycle between Triangulation,
+Anchor, Cargo, and Residue Extraction modes. Its indicator lights, moving
+crystal display, and compass point change color with the selected mode.
 
-Triangulation mode studies natural rifts. Scan and record three suitable rift
-signatures, follow the directional HUD toward their convergence, and stabilize
-the resulting travel opportunity. Successful natural travel can move the
-player thousands of blocks.
+Triangulation mode studies natural Rifts. Approach within ten blocks, aim the
+scanner at the Rift, and hold use. Keep the energy connection on the target for
+six seconds. Releasing use, moving out of range, or losing the target cancels
+the current analysis. A completed analysis collapses the Rift, adds one lock,
+and coats the scanner with two measures of Temporal Residue.
+
+Analyze three different Rifts, then follow the directional HUD toward their
+convergence. A blue Travel Rift forms roughly ten blocks away when the network
+is stabilized. Hold use near it to synchronize and begin random long-distance
+travel. The destination cannot be selected.
+
+Nearby players may hold use at the Travel Rift to join the scanner owner's
+group. The HUD and toast messages report who is joined. The owner holds use to
+depart with the current group, up to eight travelers total. Only the owner
+needs a Triangulator and the three recorded locks.
 
 Anchor mode tracks the player's calibrated Travel Anchor and controls
 Anchor-based travel.
@@ -27,9 +40,16 @@ client is closed. Hover the scanner with a visible cursor to review these contro
 
 ## Temporal Residue
 
-Successful natural-rift travel leaves Temporal Residue on the Triangulator.
-The stored amount appears in its tooltip. Sneak and use the Triangulator while
-aiming into open air to clean it and recover the accumulated material.
+Each successfully analyzed natural Rift leaves two measures of Temporal Residue
+on the Triangulator. Successful natural-Rift travel leaves four additional
+measures. Controlled Anchor travel, cargo transmission, and failed travel add
+none. The scanner stores up to twelve measures and reports the amount in its
+tooltip.
+
+Press F to select Residue Extraction mode, aim into open air, and use the
+scanner. All stored Residue is recovered into inventory, or dropped nearby if
+the inventory is full. Temporal smoke and a short pressure release confirm the
+extraction.
 
 ## Temporal Anchors
 
@@ -64,6 +84,11 @@ Shipments are committed to persistent server escrow before the source is
 cleared. A full or unloaded destination delays delivery instead of discarding
 the cargo. Items with unsupported nested inventories, including filled
 buckets, are intentionally rejected.
+
+When Manifold is installed, Temporal Cargo may travel between dimensions. A
+shipment to an unloaded dimension remains safely queued until that dimension
+and its Cargo Anchor become available. Player travel between dimensions is not
+currently supported.
 
 ## Temporal Retort
 

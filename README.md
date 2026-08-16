@@ -13,8 +13,9 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.3.4`
-- Vintage Story: `1.22.6 Stable`
+- Rift Traveler: `0.4.0`
+- Primary target: Vintage Story `1.22.7 Stable`
+- Compatible versions: Vintage Story `1.22.6` and `1.22.7`
 - Required side: client and server
 
 Download Rift Traveler from the
@@ -34,8 +35,11 @@ Download Rift Traveler from the
 ## Main systems
 
 - Temporal Triangulator and native scanner HUD
+- Active six-second Rift analysis with a visible ten-block energy connection
+- Scanner mode lighting, animated antenna, compass indicator, and audio feedback
 - Persistent player-positioned Triangulator HUD with map-aligned reset
 - Natural-rift scanning, triangulation, and long-distance travel
+- Group Travel Rifts for up to eight nearby travelers
 - Player-chosen Travel Anchor and Cargo Anchor specialization
 - Private Cargo Anchors and Cargo Transmitters
 - Cross-dimensional cargo delivery
@@ -47,7 +51,12 @@ Download Rift Traveler from the
 - Survival Handbook integration
 - Per-discovery pages with a linked Retort recipe viewer
 - On-screen discovery notifications with sound
-- Renewable Temporal Residue from natural-rift travel
+- Renewable Temporal Residue from Rift analysis and natural-rift travel
+- Dedicated Residue Extraction scanner mode
+
+Rift Traveler has been tested with Manifold. Temporal Cargo can cross between
+dimensions, and shipments remain safely queued while their destination is
+unloaded. Cross-dimensional player travel is not currently supported.
 
 ## Purpose of this repository
 
