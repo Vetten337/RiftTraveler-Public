@@ -13,7 +13,7 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.4.0`
+- Rift Traveler: `0.5.0`
 - Primary target: Vintage Story `1.22.7 Stable`
 - Compatible versions: Vintage Story `1.22.6` and `1.22.7`
 - Required side: client and server
@@ -41,9 +41,9 @@ Download Rift Traveler from the
 - Natural-rift scanning, triangulation, and long-distance travel
 - Group Travel Rifts for up to eight nearby travelers
 - Player-chosen Travel Anchor and Cargo Anchor specialization
-- Private Cargo Anchors and Cargo Transmitters
+- Unified Cargo Transmitters for private Cargo Anchors and field shipments
 - Cross-dimensional cargo delivery
-- Temporal Retort chemistry
+- Clay-formed, firebrick-reinforced Temporal Retort chemistry
 - Data-driven Retort protocols
 - Optional Rustbound Magic Rust Condensation protocol
 - Research leads and confirmed discoveries

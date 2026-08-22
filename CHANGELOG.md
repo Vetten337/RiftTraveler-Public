@@ -1,5 +1,25 @@
 # Rift Traveler Changelog
 
+## 0.5.0
+
+- Rebuilt the Temporal Retort as a cohesive oven-scale ceramic workstation
+  while preserving its vessel-left, firebox-right function.
+- Added separate Fireclay forming, firing, Fireclay Brick reinforcement, and
+  assembly stages for the Retort vessel and firebox.
+- Added a roofed firebox, open chimney and transfer pipe, bronze clamps, working
+  heat gauge, barrel-lined hollow vessel, animated lid, and improved audio.
+- Preserved vanilla Firepit fueling and ignition and made Retort removal clean
+  up its attached Firepit while returning remaining fuel.
+- Unified Temporal Cargo around one Cargo Transmitter item used for both the
+  installed Cargo Anchor receiver and the separate field endpoint.
+- Redesigned the Cargo Transmitter as a hollow vanilla-style chest with bronze
+  temporal fittings, lid animation, vanilla chest sounds, and improved GUI.
+- Added three-stage Anchor arm animations and matching particles, arcs, and
+  activation sounds for both Crystals and mounted Cargo Transmitters.
+- Improved Triangulator item displays and softened teleport edge particles.
+- Published one platform-neutral ZIP for Windows and Linux clients and servers
+  running supported Vintage Story 1.22.6-1.22.7 builds.
+
 ## 0.4.0
 
 - Targeted Vintage Story 1.22.7 Stable while retaining compatibility with

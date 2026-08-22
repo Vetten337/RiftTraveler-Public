@@ -55,7 +55,7 @@ extraction.
 
 A newly placed Anchor begins as a private, unassigned foundation and calibrates
 for five seconds. Once ready, install one Temporal Crystal to specialize and
-charge it as your Travel Anchor, or install one Cargo Storage Box to create
+charge it as your Travel Anchor, or install one Cargo Transmitter to create
 your Cargo Anchor. Each player may own one of each role, and either may be
 constructed first.
 
@@ -70,10 +70,12 @@ and unusual removal may still destroy the charge.
 
 ## Temporal Cargo
 
-A Cargo Anchor is a private destination created from an eligible Anchor. A
-Cargo Transmitter holds up to six outgoing stacks. Bind it with the
-Triangulator in Cargo mode, stage the cargo, then hold the scanner use control
-to transmit.
+A Cargo Anchor is a private destination created by installing a Cargo
+Transmitter into an eligible Anchor. Craft and place a second Cargo Transmitter
+as the six-slot field endpoint. Bind it with the Triangulator in Cargo mode,
+stage the cargo, then hold the scanner use control to transmit. Breaking an
+empty Cargo Anchor returns its installed Transmitter. Legacy Cargo Storage
+Boxes convert directly into Cargo Transmitters in the crafting grid.
 
 Cargo Anchors cannot be relocated remotely because that could be used to move
 their stored inventory without a cargo transmission. Resolve pending
@@ -93,7 +95,9 @@ currently supported.
 ## Temporal Retort
 
 The Temporal Retort extends familiar Barrel chemistry with heat, clamping,
-timed processing, liquids, and atomic multi-output reactions.
+timed processing, liquids, and atomic multi-output reactions. Its vessel and
+firebox begin as separate Fireclay forming projects that are fired, reinforced
+with Fireclay Bricks, and assembled with the remaining machine components.
 
 Place the Retort with its working face toward you. It occupies one real block
 but its model forms a horizontal two-block workstation: the 50 L reaction
@@ -111,8 +115,10 @@ rain; unrelated uncovered Firepits retain their normal weather behavior.
 - Closed: sealed Barrel-compatible processing
 - Clamped: heated Temporal protocol processing
 
-With the lid open, the vessel shows its stored liquid. The surface height and
-appearance follow the quantity and liquid type in the 50 L tank.
+The animated lid opens into a hollow barrel-lined vessel and uses familiar
+vanilla chest-like feedback. With the lid open, the vessel shows its stored
+liquid. The surface height and appearance follow the quantity and liquid type
+in the 50 L tank. The front heat gauge follows the Retort's live temperature.
 
 A protocol never consumes its inputs unless every output can be inserted.
 Progress may pause when temperature or lid requirements are lost and resume
