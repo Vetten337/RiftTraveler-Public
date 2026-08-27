@@ -17,11 +17,11 @@ the current analysis. A completed analysis collapses the Rift, adds one lock,
 and coats the scanner with two measures of Temporal Residue.
 
 Analyze three different Rifts, then follow the directional HUD toward their
-convergence. A blue Travel Rift forms roughly ten blocks away when the network
+convergence. A blue Convergence Rift forms roughly ten blocks away when the network
 is stabilized. Hold use near it to synchronize and begin random long-distance
 travel. The destination cannot be selected.
 
-Nearby players may hold use at the Travel Rift to join the scanner owner's
+Nearby players may hold use at the Convergence Rift to join the scanner owner's
 group. The HUD and toast messages report who is joined. The owner holds use to
 depart with the current group, up to eight travelers total. Only the owner
 needs a Triangulator and the three recorded locks.
@@ -42,8 +42,8 @@ client is closed. Hover the scanner with a visible cursor to review these contro
 
 Each successfully analyzed natural Rift leaves two measures of Temporal Residue
 on the Triangulator. Successful natural-Rift travel leaves four additional
-measures. Controlled Anchor travel, cargo transmission, and failed travel add
-none. The scanner stores up to twelve measures and reports the amount in its
+measures. Controlled Anchor travel, constructed Convergence Gate travel, cargo
+transmission, and failed travel add none. The scanner stores up to twelve measures and reports the amount in its
 tooltip.
 
 Press F to select Residue Extraction mode, aim into open air, and use the
@@ -155,4 +155,47 @@ Use:
 ```
 
 to review the server-authoritative discovery record.
+
+## Conflux Iron
+
+Mix one Temporal Dust with one litre of Limewater in a Barrel to create one
+litre of Temporal Solvent. A discoverable high-temperature, clamped Retort
+protocol infuses an Iron Bloom with Solvent and produces a Temporal Bloom. Heat
+the Bloom above 700 C and work it on an iron-tier anvil to consolidate one
+Conflux Iron ingot.
+
+Conflux Iron supports the standard iron components, tools, and weapons with
+iron-equivalent performance. Chiseling one ingot produces twenty nuggets;
+twenty nuggets consolidate back into one ingot in a Bloomery. Plates, rods,
+and nuggets form the principal Convergence Gate components.
+
+## Rift Capture and Sconces
+
+Install one empty Containment Core in a Rift Harvester and place it within ten
+blocks of a target. Complete a scan with the Triangulator in Rift mode. A
+natural Temporal Rift becomes a Rift Core; a stabilized blue Convergence Rift
+becomes a Stabilized Rift Core. Travel mode never harvests.
+
+A wall-mounted Rift Core Sconce accepts an empty, normal, or stabilized core.
+A Stabilized Rift Core creates a passive Rift Ward with a 50-block horizontal
+radius and suppresses 97.5% of newly forming natural rifts. It does not remove
+existing rifts or interfere with intentional Convergence Rifts.
+
+## Constructed Convergence Gates
+
+Build a five-by-five outer frame around a clear three-by-three opening. Use one
+Rift Containment Brace at each corner, eleven Conflux Frame Blocks around the
+remaining perimeter, and one Convergence Core Housing centered at eye level on
+either vertical side. Place the Housing with its controls facing outward and
+orient the frame conduits around the circuit.
+
+Open the Housing and install one Stabilized Rift Core and one Temporal Crystal.
+The current gate remains powered while both components stay installed and does
+not consume Crystal charge during travel. Use the Housing to name the gate,
+select another active gate, and configure public or private access.
+
+Walk into the contained blue Convergence Rift to travel. The destination checks
+both sides for a safe arrival. An obstructed destination prevents travel and
+turns the circuit red; clearing the obstruction returns it to cyan. Removing
+either installed component safely collapses the gate.
 

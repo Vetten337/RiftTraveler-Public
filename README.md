@@ -13,7 +13,7 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.5.0`
+- Rift Traveler: `0.6.0`
 - Primary target: Vintage Story `1.22.7 Stable`
 - Compatible versions: Vintage Story `1.22.6` and `1.22.7`
 - Required side: client and server
@@ -53,6 +53,10 @@ Download Rift Traveler from the
 - On-screen discovery notifications with sound
 - Renewable Temporal Residue from Rift analysis and natural-rift travel
 - Dedicated Residue Extraction scanner mode
+- Conflux Iron production, standard components, tools, and weapons
+- Rift Harvester capture into reusable Containment Cores
+- Rift Core Sconces with passive natural-rift warding
+- Player-built linked Convergence Gates with safe-arrival protection
 
 Rift Traveler has been tested with Manifold. Temporal Cargo can cross between
 dimensions, and shipments remain safely queued while their destination is

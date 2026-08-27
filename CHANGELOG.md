@@ -1,5 +1,29 @@
 # Rift Traveler Changelog
 
+## 0.6.0
+
+- Added the complete Conflux Iron production chain through Temporal Solvent,
+  Retort-infused Temporal Blooms, anvil consolidation, nuggets, Bloomery
+  recycling, and the standard iron component and tool family.
+- Added reusable Containment Cores and a Rift Harvester for capturing natural
+  Temporal Rifts and stabilized blue Convergence Rifts.
+- Added Rift Core Sconces. Stabilized Rift Cores provide passive 50-block
+  natural-rift warding when installed.
+- Added functional five-by-five Convergence Gates built from Conflux Frame
+  Blocks, Rift Containment Braces, and a player-facing Core Housing.
+- Added authentic contained blue Convergence Rift visuals, staged activation,
+  controlled collapse, Anchor-style audio, animated circuit pulses, and
+  cyan/red operational indicators.
+- Added gate names, paired destination selection, ownership, public/private
+  access, allowed-player lists, safe bidirectional arrivals, and obstruction
+  protection.
+- Added a controlled-travel cancellation watchdog to recover from interrupted
+  Anchor transitions without leaving the client behind a blue overlay.
+- Improved Temporal Triangulator presentation and updated Survival Handbook
+  guidance throughout.
+- Published one platform-neutral ZIP for Windows and Linux clients and servers
+  running supported Vintage Story 1.22.6-1.22.7 builds.
+
 ## 0.5.0
 
 - Rebuilt the Temporal Retort as a cohesive oven-scale ceramic workstation
