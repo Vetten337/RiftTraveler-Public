@@ -1,5 +1,25 @@
 # Rift Traveler Changelog
 
+## 0.6.2
+
+- Added the Temporal Drive, a crystal-powered mechanical source that contributes
+  torque, freewheels above its target speed, and supports combined networks.
+- Added animated internal machinery, glass shielding, temporal arcs, particles,
+  sound, directional effects, and save/reload recovery for the Temporal Drive.
+- Expanded Temporal Retort research with structured discovery hints, progression
+  guidance, and new Conflux Binding Compound, Temporal Quartz, Containment
+  Insulator, and Temporal Solvent protocols.
+- Moved Temporal Solvent production into the Retort and removed obsolete legacy
+  Cargo Storage Boxes and their Handbook guidance.
+- Added Survival Handbook guides and four native tutorials covering first scans,
+  Rift capture, Travel Anchor returns, and Temporal Cargo transportation.
+- Added explicit tutorial equipment checklists, restart-safe preflight pages,
+  and a dedicated N confirmation key.
+- Refined recipes, Handbook links, grouped Retort entries, discovery notices,
+  directional visuals, mechanical persistence, and multiple block models.
+- Published one platform-neutral ZIP for Windows and Linux clients and servers
+  running supported Vintage Story 1.22.6-1.22.7 builds.
+
 ## 0.6.0
 
 - Added the complete Conflux Iron production chain through Temporal Solvent,
