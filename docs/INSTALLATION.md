@@ -12,6 +12,10 @@ Rustbound Magic integration is optional. When Rustbound Magic is installed,
 Rift Traveler adds the Rust Condensation Retort protocol. Rift Traveler remains
 fully functional when Rustbound Magic is absent.
 
+Immersive Woodworking 1.2.0 integration is optional. When it is installed,
+Rift Traveler adds the missing Conflux Iron Sawmill Blade variant and resolves
+Immersive Woodworking's wildcard blade recipe without replacing its files.
+
 ## Single-player and client installation
 
 1. Download the Rift Traveler ZIP from the Vintage Story Mod Database.

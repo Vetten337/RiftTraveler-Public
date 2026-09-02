@@ -1,5 +1,15 @@
 # Rift Traveler Changelog
 
+## 0.6.3
+
+- Added optional Immersive Woodworking 1.2.0 compatibility for Conflux Iron
+  Sawmill Blades with iron-equivalent durability.
+- Added Conflux Iron nails and strips to the supported vanilla metal variants.
+- Completed current-game Conflux Iron metal-sheet, plain-sheet, and tarnished
+  texture variants and removed the associated startup warnings.
+- Removed unresolved `sawmillblade-confluxiron` recipe errors when both mods are
+  loaded together.
+
 ## 0.6.2
 
 - Added the Temporal Drive, a crystal-powered mechanical source that contributes

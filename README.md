@@ -13,7 +13,7 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.6.2`
+- Rift Traveler: `0.6.3`
 - Primary target: Vintage Story `1.22.7 Stable`
 - Compatible versions: Vintage Story `1.22.6` and `1.22.7`
 - Required side: client and server
@@ -46,6 +46,7 @@ Download Rift Traveler from the
 - Clay-formed, firebrick-reinforced Temporal Retort chemistry
 - Data-driven Retort protocols
 - Optional Rustbound Magic Rust Condensation protocol
+- Optional Immersive Woodworking 1.2.0 Conflux Iron Sawmill Blade compatibility
 - Research leads and confirmed discoveries
 - Automatic discovery coverage for enabled Retort recipes
 - Survival Handbook integration
