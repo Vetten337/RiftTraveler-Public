@@ -13,7 +13,7 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.6.6`
+- Rift Traveler: `0.6.7`
 - Primary target: Vintage Story `1.22.7 Stable`
 - Compatible versions: Vintage Story `1.22.6` and `1.22.7`
 - Required side: client and server

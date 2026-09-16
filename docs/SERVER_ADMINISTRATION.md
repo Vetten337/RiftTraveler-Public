@@ -67,7 +67,7 @@ stored with the world and should be protected by the same backup policy.
 
 
 
-## Temporal Storm Stabilizer (0.6.6)
+## Temporal Storm Stabilizer (0.6.7)
 
 Stabilizers must remain loaded to provide protection. They only suppress instability and hostile spawning during an actual temporal storm. Manual operation outside a storm is a visual preview. Existing enemies can enter the shield.
 

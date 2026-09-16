@@ -3,7 +3,7 @@
 Rift Traveler is designed as a progression through observation,
 experimentation, and infrastructure rather than immediate teleportation.
 
-Current release: **0.6.6**.
+Current release: **0.6.7**.
 
 - [Temporal Storm Stabilizer](#temporal-storm-stabilizer)
 - [Rift Resonance Array](#rift-resonance-array)

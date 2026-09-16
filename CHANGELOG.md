@@ -1,6 +1,6 @@
 # Rift Traveler Changelog
 
-## 0.6.6
+## 0.6.7
 
 - Added the Temporal Storm Stabilizer: place a compact Conflux box that extends its base and reconstructs into a complete machine with articulated arms, segmented gyroscopic rings, conduits, and four Crystal pedestals.
 - Install a removable Stabilized Rift Core for automatic storm startup and shutdown. Optional Crystals extend the full-strength radius from 16 blocks with none, to 32 with four empty Crystals, and 64 with four full Crystals. Mixed charge levels produce intermediate ranges.
