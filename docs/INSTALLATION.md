@@ -18,7 +18,7 @@ Immersive Woodworking's wildcard blade recipe without replacing its files.
 
 ## Single-player and client installation
 
-1. Download the Rift Traveler ZIP from the Vintage Story Mod Database.
+1. Download the Rift Traveler ZIP from the Vintage Story Mod Database or the [GitHub releases](https://github.com/Vetten337/RiftTraveler-Public/releases).
 2. Do not extract the ZIP.
 3. Place it in the Vintage Story data `Mods` directory.
 4. Remove older Rift Traveler ZIPs or folders.

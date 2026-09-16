@@ -65,3 +65,12 @@ Rift Traveler is in alpha. Back up world saves before installation, removal,
 or updates. Cargo shipment escrow, Anchors, discoveries, and machine state are
 stored with the world and should be protected by the same backup policy.
 
+
+
+## Temporal Storm Stabilizer (0.6.6)
+
+Stabilizers must remain loaded to provide protection. They only suppress instability and hostile spawning during an actual temporal storm. Manual operation outside a storm is a visual preview. Existing enemies can enter the shield.
+
+Default full-strength radii are 16 blocks without Crystals, 32 with four empty Crystals, and 64 with four fully charged Crystals. Partial charge is proportional. The field is a sphere, including below the machine. Installed Crystals are not drained by the Stabilizer. See the [Player Guide](PLAYER_GUIDE.md#temporal-storm-stabilizer).
+
+The controller currently has no survival crafting recipe; provide it through Creative/admin tools if desired. Install matching mod versions on client and server.

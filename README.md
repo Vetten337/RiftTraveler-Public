@@ -13,7 +13,7 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.6.3`
+- Rift Traveler: `0.6.6`
 - Primary target: Vintage Story `1.22.7 Stable`
 - Compatible versions: Vintage Story `1.22.6` and `1.22.7`
 - Required side: client and server
@@ -86,3 +86,7 @@ When reporting a problem, include:
 - relevant client and server logs;
 - screenshots when they help explain the issue.
 
+
+## Temporal Storm Protection
+
+The new Stabilizer builds a spherical storm shelter from a packed Conflux controller. Read the [Stabilizer operating guide](docs/PLAYER_GUIDE.md#temporal-storm-stabilizer) for core installation, Crystal upgrades, controls, and protection limits. Currently available through Creative/admin placement; no survival recipe is included.

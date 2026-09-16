@@ -1,5 +1,57 @@
 # Rift Traveler Changelog
 
+## 0.6.6
+
+- Added the Temporal Storm Stabilizer: place a compact Conflux box that extends its base and reconstructs into a complete machine with articulated arms, segmented gyroscopic rings, conduits, and four Crystal pedestals.
+- Install a removable Stabilized Rift Core for automatic storm startup and shutdown. Optional Crystals extend the full-strength radius from 16 blocks with none, to 32 with four empty Crystals, and 64 with four full Crystals. Mixed charge levels produce intermediate ranges.
+- The animated spherical shield uses the same radius as protection. During temporal storms it suspends personal instability and prevents new hostile spawns inside. Existing enemies can still enter; it is not a physical or general damage barrier.
+- Added a central energy beam, branching shield energy, particles, and smooth storm ambience and stability-gear transitions when crossing the boundary.
+- Added mechanical and temporal unpacking, deployment, ring connection, and reverse shutdown sounds synchronized with machine motion.
+- Improved staged placement and cached animation preparation to reduce placement/loading stalls, and simplified machine selection outlines.
+- Added the detailed Stabilizer handbook guide, item tooltip, packed item model, and user-tuned hand/ground transforms.
+- The Stabilizer is currently available through Creative/admin placement; a survival crafting recipe is not included. Installed core and Crystal charge are not consumed by it.
+
+- Rift locks now persist per player across logout, reconnect, server reload, and chunk unloading. Lock order, convergence center, stabilization, and pending resolution are preserved. Use `/rt reset` to abandon a cycle.
+- In Rift mode, aim at a stabilized blue convergence within ten blocks and hold use for approximately six seconds to collapse it without a Harvester. Collapse stores up to four Temporal Residue, clears the three locks, and resumes Rift searching. Extract stored Residue first to make room.
+- A prepared Rift Harvester within ten blocks takes priority and captures a Stabilized Rift Core instead. Travel mode remains the way to use the blue Rift for travel.
+- Blue convergence collapse now shares the natural Rift's scanner tether, energy particles, glow, waveform, progress display, and audio. Releasing use, changing modes, leaving range, or looking away interrupts collapse without a reward or consuming the Rift.
+- Saved lock and resolution records prevent repeated rewards after reconnecting or reloading.
+- Fixed discovery notification text overlap for wrapped research titles, including Conflux Binding Compound and Temporal Gear Extraction.
+- Chiseling a Conflux Iron ingot now produces twenty Conflux Iron Nuggets. Existing Conflux Iron metal bits convert one for one into nuggets in the crafting grid, restoring access to Conflux Binding Compound research.
+- Updated the player handbook with saved tracking, convergence collapse, Harvester priority, Residue capacity, and metal-bit conversion instructions.
+
+Install on both client and server. Existing players without saved tracking data start with an empty cycle; locks lost before this update cannot be recovered.
+
+## 0.6.5
+
+- Added the six-station Rift Resonance Array with clockwise alignment, a separate charging rotor, sliding chamber windows, charging particles, frame arcs, and clearer charged crystal models.
+- Temporal Crystals now retain usable charge through storage, machine insertion, placement, pickup, saving, and Anchor relocation. Legacy charged crystals upgrade when used.
+- Temporal Drives consume crystal energy and stop at depletion without destroying the crystal. Default full capacity is 30 minutes.
+- Charged crystals support six Anchor returns or paired Gate departures at default settings. Departing Gates pay the charge cost; failed travel refunds it. Uncharged Anchor crystals remain single-use by default. Sneak-use an Anchor with an empty hand to retrieve its reusable crystal.
+- Added server settings for crystal capacity, Anchor and Gate jump costs, uncharged Anchor crystal consumption, and Rift Core maximum charge.
+- The Array accepts partially charged crystals. Rift Cores retain their unused percentage and become empty Containment Cores only when depleted.
+- Array transfer time scales with energy supplied: a full refill takes at most 60 seconds, even with custom crystal capacity. Alignment and cooldown remain separate. Cycle timing and energy survive saving and reloading.
+- Each crystal reaching full charge deposits four Temporal Residue in the Array's base tray. Incomplete transfers do not award completion residue.
+- Reduced Conflux Iron infusion to 1 L of solvent per Iron Bloom, preserving one Temporal Bloom output. Temporal Quartz infusion uses 4 L per batch. Rust condensation uses 8 Rusty Dust and 1 L of solvent to produce 4 Temporal Residue.
+- Refined Array textures and geometry, corrected overlapping surfaces, and improved machine animation lifecycle handling.
+- Updated player handbook entries and tutorials for crystal consumption, recharging, core percentages, residue collection, and proportional charging time.
+
+## Updating
+
+Replace the previous Rift Traveler package with this ZIP on both client and server. Existing server settings are retained; new settings receive defaults. Already-used crystals retain their remaining energy when capacity changes—top them up in the Array to reach the new maximum.
+
+Dependencies remain Vintage Story and Survival 1.22.6 or later within the supported 1.22.6–1.22.7 release line. This update does not raise the declared game requirement.
+
+## 0.6.4
+
+- Restored barrel-style proportional batching for Temporal Retort recipes.
+- Temporal Solvent can now be produced in batches up to the Retort's full
+  50-litre capacity while preserving the one Dust per litre recipe ratio.
+- Scaled Retort batches now account for available ingredients, liquid volume,
+  liquid conversion compatibility, and solid-output capacity before committing.
+- Preserved atomic processing: invalid ratios or insufficient output space do
+  not partially consume recipe contents.
+
 ## 0.6.3
 
 - Added optional Immersive Woodworking 1.2.0 compatibility for Conflux Iron
