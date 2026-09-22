@@ -13,7 +13,7 @@ the Temporal Retort.
 
 ## Current release
 
-- Rift Traveler: `0.6.7`
+- Rift Traveler: `0.6.9`
 - Primary target: Vintage Story `1.22.7 Stable`
 - Compatible versions: Vintage Story `1.22.6` and `1.22.7`
 - Required side: client and server
@@ -45,6 +45,8 @@ Download Rift Traveler from the
 - Cross-dimensional cargo delivery
 - Clay-formed, firebrick-reinforced Temporal Retort chemistry
 - Data-driven Retort protocols
+- In game Snapshot Recipe Maker for live recipe creation, testing, editing,
+  duplication, discovery hints, visual input variants, and removal
 - Optional Rustbound Magic Rust Condensation protocol
 - Optional Immersive Woodworking 1.2.0 Conflux Iron Sawmill Blade compatibility
 - Research leads and confirmed discoveries
@@ -89,4 +91,4 @@ When reporting a problem, include:
 
 ## Temporal Storm Protection
 
-The new Stabilizer builds a spherical storm shelter from a packed Conflux controller. Read the [Stabilizer operating guide](docs/PLAYER_GUIDE.md#temporal-storm-stabilizer) for core installation, Crystal upgrades, controls, and protection limits. Currently available through Creative/admin placement; no survival recipe is included.
+The Stabilizer builds a spherical storm shelter from a packed Conflux controller. Read the [Stabilizer operating guide](docs/PLAYER_GUIDE.md#temporal-storm-stabilizer) for core installation, Crystal upgrades, controls, protection limits, and its survival recipe.

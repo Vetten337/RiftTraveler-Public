@@ -21,6 +21,7 @@ executor.
     {
       "type": "item",
       "code": "game:clearquartz",
+      "acceptedCodes": ["game:clearquartz", "game:rosequartz"],
       "quantity": 4,
       "attributes": {},
       "allowMixedVariants": false
@@ -62,6 +63,8 @@ executor.
 
 - `type`: `item` or `block`
 - `code`: exact or wildcard collectible code
+- `acceptedCodes`: optional explicit list of exact alternatives; when present,
+  matching uses this list instead of the exact or wildcard `code`
 - `quantity`: positive integer
 - `attributes`: optional exact integer ItemStack attributes
 - `allowMixedVariants`: allows multiple matching collectible variants to
@@ -69,6 +72,8 @@ executor.
 
 Matching is independent of input-slot order. Ingredient assignment is complete
 and one-to-one, so one physical quantity cannot satisfy two requirements.
+`acceptedCodes` is the format written by the GUI's visual Selected Items editor.
+The first selected code is also retained in `code` as the representative item.
 
 Current attribute support is intentionally narrow. The production use case is:
 

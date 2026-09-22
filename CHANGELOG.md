@@ -1,5 +1,20 @@
 # Rift Traveler Changelog
 
+## 0.6.9
+
+- Added the in game Snapshot Recipe Maker GUI for privileged server operators, including native staging, liquid controls, temperature, duration, lid selection, and default or custom discovery hints.
+- Added live creation, validation, editing, duplication, browsing, and removal of generated Retort recipes without a server restart.
+- Added visual exact and selected input alternatives, mixed quantity support, installed mod item support, and backward compatibility for wildcard recipes.
+- Added recipe preview and server authoritative staged testing with input allocation, liquid, dependencies, outputs, duplicate code, and overlap reporting.
+- Generated recipes now receive live automatic discoveries with localized names and item pictures. Removing a recipe also removes its connected Handbook discovery records.
+- Added matching animated Rift presentation inside loaded Rift Harvesters.
+
+## 0.6.8
+
+- Reworked Rift Resonance Array deployment and its central Conflux reveal.
+- Added animated Rift presentation to Array chargers, sconces, and placed Rift Cores.
+- Expanded ground, shelf, and rack presentation for temporal materials and fixed Cargo Transmitter escrow pickup behavior.
+- Improved Temporal Storm Stabilizer transitions and added its survival recipe.
 ## 0.6.7
 
 - Added the Temporal Storm Stabilizer: place a compact Conflux box that extends its base and reconstructs into a complete machine with articulated arms, segmented gyroscopic rings, conduits, and four Crystal pedestals.
@@ -38,9 +53,9 @@ Install on both client and server. Existing players without saved tracking data 
 
 ## Updating
 
-Replace the previous Rift Traveler package with this ZIP on both client and server. Existing server settings are retained; new settings receive defaults. Already-used crystals retain their remaining energy when capacity changes—top them up in the Array to reach the new maximum.
+Replace the previous Rift Traveler package with this ZIP on both client and server. Existing server settings are retained; new settings receive defaults. Already-used crystals retain their remaining energy when capacity changesâ€”top them up in the Array to reach the new maximum.
 
-Dependencies remain Vintage Story and Survival 1.22.6 or later within the supported 1.22.6–1.22.7 release line. This update does not raise the declared game requirement.
+Dependencies remain Vintage Story and Survival 1.22.6 or later within the supported 1.22.6â€“1.22.7 release line. This update does not raise the declared game requirement.
 
 ## 0.6.4
 

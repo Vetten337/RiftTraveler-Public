@@ -56,7 +56,7 @@ recipe to lead triggers, clues, completion, localization, and Handbook
 presentation.
 
 Snapshot-generated and manually added Retort recipes automatically receive a
-generic research lead and Handbook entry after restart. Authors may still add
+generic research lead and Handbook entry immediately. Authors may still add
 an explicit Discovery Catalog definition to replace the generated lead with
 custom lore or a specialized trigger. Authored entries always take priority.
 
